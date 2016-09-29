@@ -12,8 +12,13 @@ import lombok.Data;
  * Description:
  */
 @Data
-public class CurrencyExchangeRateInfoModel
+public class BloombergFinancialDataInfoModel
 {
-    private String currencyExchangeRate;
+    private String name;
+
+    // 目前价位
+    private String currentValue;
+
+    // 价位波动情况 正数代表涨 负数代表跌
     private String changeValue;
 }

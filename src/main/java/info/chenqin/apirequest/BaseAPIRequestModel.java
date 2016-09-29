@@ -32,6 +32,4 @@ public class BaseAPIRequestModel
     @NotNull
     @NotEmpty
     private String sign;
-
-
 }
